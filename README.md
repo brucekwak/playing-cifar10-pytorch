@@ -8,21 +8,21 @@ playing-cifar10-pytorch
 <code>
  pip install easydict
 </code>
-<pre>
+</pre>
     
 [2] pytorch-gradual-warmup-lr
 <pre>
 <code>
  pip install git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git
 </code>
-<pre>
+</pre>
 
 [3] cutmix
 <pre>
 <code>
  pip install git+https://github.com/ildoonet/cutmix
 </code>
-<pre>
+</pre>
 
 ### Repo Structure
 <pre>
