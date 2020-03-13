@@ -4,15 +4,25 @@ playing-cifar10-pytorch
 
 ### Requirement
 [1] easydict
-    $ pip install easydict
+<pre>
+<code>
+ pip install easydict
+</code>
+<pre>
     
 [2] pytorch-gradual-warmup-lr
-    $ pip install git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git
-    (https://github.com/ildoonet/pytorch-gradual-warmup-lr)
+<pre>
+<code>
+ pip install git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git
+</code>
+<pre>
 
 [3] cutmix
-    $ pip install git+https://github.com/ildoonet/cutmix
-    (https://github.com/ildoonet/cutmix)
+<pre>
+<code>
+ pip install git+https://github.com/ildoonet/cutmix
+</code>
+<pre>
 
 ### Repo Structure
 <pre>
