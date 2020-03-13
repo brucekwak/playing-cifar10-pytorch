@@ -1,0 +1,25 @@
+{
+    "RUN_CODE" : "experiment_1_cutmix",
+    
+    "ARGS_TRAIN" : {
+        "data": "CIFAR10",
+        "num_classes" : 10,
+        "input_dim" : 3,
+        "base_lr": 1e-2,
+        "momentum": 0.9,
+        "weight_decay": 1e-4,
+        
+        "print_freq": 20,        
+        "epochs": 500,
+        "warmup_epochs": 100,
+        "warmup_multiplier": 10,
+        
+        "batch_size": 8192,
+        "workers": 2
+
+    },
+    
+    "CUTMIX" : true,
+    "DATA_PATH": "./data/"
+
+}
