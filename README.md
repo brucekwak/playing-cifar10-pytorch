@@ -3,7 +3,6 @@ playing-cifar10-pytorch
 
 
 ### Requirement
----------------------
 [1] easydict
     $ pip install easydict
     
@@ -16,7 +15,6 @@ playing-cifar10-pytorch
     (https://github.com/ildoonet/cutmix)
 
 ### Repo Structure
----------------------
 <pre>
 <code>
 |- data_loader.py   # dataset, data loader
@@ -29,5 +27,4 @@ playing-cifar10-pytorch
 
 
 ### Run 
----------------------
 $ python main.py --params experiment_1_cutmix.json
