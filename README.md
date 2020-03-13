@@ -27,4 +27,8 @@ playing-cifar10-pytorch
 
 
 ### Run 
-$ python main.py --params experiment_1_cutmix.json
+<pre>
+<code>
+ python main.py --params experiment_1_cutmix.json
+</code>
+</pre>
